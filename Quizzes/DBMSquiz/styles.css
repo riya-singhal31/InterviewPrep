@@ -1,0 +1,61 @@
+body{
+  background-color: #f9b208;
+}
+.main{
+  place-items: center;
+  display: grid;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.container{
+  width: 40vw;
+  background-color: #f98404;
+  padding: 3rem 8rem;
+  border-radius: 20%;
+  box-shadow: 5px 10px #fc5404;
+}
+
+.container h2{
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 1rem 0 4rem 0;
+  font-family: sans-serif;
+}
+
+.container li{
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  list-style: none;
+}
+
+input{
+  cursor: pointer;
+}
+
+#submit, .btn{
+  font-size: 1rem;
+  border: none;
+  background-color: #ffc93c;
+}
+
+#submit:hover{
+  background-color: #00ead3;
+}
+
+.hide{
+  display: none;
+}
+
+.showScore{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.navBar{
+margin: 0px 10px 10px 0px;
+  background-color: #022e57;
+padding: 5px;
+  text-align: center;
+  color: white;
+}

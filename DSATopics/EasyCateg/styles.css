@@ -1,0 +1,89 @@
+nav{
+  background-color: black;
+  color: white;
+  padding: 3px;
+  text-align: center;
+  font-size: 25px;
+}
+
+#quesEasy{
+  text-align: center;
+  padding: 3px;
+  margin: 5px;
+  font-weight: bold;
+  color: blue;
+  font-size: 40px;
+}
+
+#quesLink{
+  text-align: center;
+  padding: 3px;
+  margin: 5px;
+}
+
+#quesLink a{
+  color: red;
+
+}
+a{
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.setTime{
+  text-align: center;
+}
+
+.setTime a{
+  color: green;
+
+}
+
+.button {
+
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #BF1363;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button:hover{
+  background-color: #39A6A3;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.next{
+  text-align: center;
+}

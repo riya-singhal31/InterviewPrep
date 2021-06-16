@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="styles.css">
+    
+  </head>
+  <body>
+  <center>
+    <div class="container">
+     <!--upper-->
+       <div class="upper">
+
+         <div class="borderUpper">
+
+                <p id="timer">00:00</p>
+
+         </div>
+
+       </div>
+     <!--upper ends-->
+       <hr class="stylehr">
+
+    <!--lower-->
+       <div class="lower">
+
+         <div class="current">
+
+            <span>SESSION <span id="sessionNo">0</span></span>
+         </div>
+         <hr class="stylehr">
+
+          <div class="time">
+            <div class="sessionTime">
+              <p>Session Time</p>
+              <span><span id="stime">0</span> min</span>
+              <p class="sessionBtn">
+                <button id="sminus" class="plusminus">-</button>
+                <button id="splus"  class="plusminus">+</button
+              </p>
+            </div>
+            <div class="breakTime">
+               <p>Break Time</p>
+               <span><span id="btime">0</span> min</span>
+               <p class="breakBtn">
+                 <button id="bminus"  class="plusminus">-</button>
+                 <button id="bplus"   class="plusminus">+</button
+               </p>
+
+            </div>
+          </div>
+
+
+           <div class="footerBtn">
+
+
+
+            <button id="pause">Pause</button>
+
+
+            <button id="reset">Reset</button>
+          </div>
+
+
+       </div>
+
+    </div>
+    </center>
+    <center>
+      <button id="start" name="button">Start</button>
+      </center>
+      <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>

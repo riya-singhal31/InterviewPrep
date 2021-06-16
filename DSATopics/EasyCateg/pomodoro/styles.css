@@ -1,0 +1,107 @@
+body{
+  background-color:#493323;
+}
+
+.container{
+  height: 550px;
+  width: 300px;
+  background-color: #91684A;
+  opacity: 0.9;
+  -webkit-box-shadow: 0 0 20px #CC9B6D;
+        box-shadow: 0 0 20px #CC9B6D;
+  margin-top: 95px;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.upper p{
+  background-color: lightgrey;
+
+ border: 15px solid #51C4D3;
+ padding: 50px;
+ margin: 20px;
+  text-align: center;
+padding-top: 50px;
+  font-size: 40px;
+color: #126E82;
+text-shadow: 2px 2px #ff0000;
+border-radius: 5px;
+}
+
+
+hr.stylehr{
+   border-top: 1px dotted white;
+   border-bottom: 0px;
+   margin: 20px;
+}
+
+.sessionTime{
+  display: inline-block;
+float: left;
+  margin-left: 20px;
+  color: white;
+}
+
+.breakTime{
+    display: inline-block;
+float: right;
+    margin-right: 20px;
+    color: white;
+}
+
+.current{
+  color: white;
+  font-weight: bold;
+}
+
+.sessionTime span{
+  color: #126E82;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.breakTime span{
+  color: #CE1212;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.plusminus{
+
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+
+#pause{
+  padding: 5px;
+  float: left;
+  margin-left: 40px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+#reset{
+  padding: 5px;
+  float: right;
+  margin-right: 40px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+#start{
+  padding: 5px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.disable{
+  opacity: 0.3;
+  cursor: not-allowed;
+}
